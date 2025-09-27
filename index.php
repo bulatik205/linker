@@ -82,6 +82,7 @@ if (!isset($_COOKIE['userHash'])) {
 
     <script src="js/ajax.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/color.js"></script>
 </body>
 
 </html>

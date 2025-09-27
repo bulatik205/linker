@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 @charset "UTF-8";
-=======
->>>>>>> c33e3d2bdbe9b59b96446534cf7a3a1488b020ec
 @import url("https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap");
 * {
   font-family: "Montserrat", sans-serif;
@@ -40,11 +37,7 @@ body {
 }
 @media (max-width: 1300px) {
   .links .links--body {
-<<<<<<< HEAD
     grid-template-columns: 1fr 1fr;
-=======
-    grid-template-columns: 1fr 1fr 1fr;
->>>>>>> c33e3d2bdbe9b59b96446534cf7a3a1488b020ec
   }
 }
 @media (min-width: 1300px) {
@@ -64,19 +57,11 @@ body {
 }
 @media (max-width: 1300px) {
   .links .links--body linker {
-<<<<<<< HEAD
-=======
-    min-height: 10vh;
->>>>>>> c33e3d2bdbe9b59b96446534cf7a3a1488b020ec
     aspect-ratio: 1/1;
   }
 }
 @media (min-width: 1300px) {
   .links .links--body linker {
-<<<<<<< HEAD
-=======
-    max-height: 25vh;
->>>>>>> c33e3d2bdbe9b59b96446534cf7a3a1488b020ec
     aspect-ratio: 1/1;
   }
 }
@@ -114,7 +99,6 @@ body {
   border-radius: 15px;
   border: 0;
   padding: 10px;
-<<<<<<< HEAD
 }
 
 /* Стили для контекстного меню */
@@ -169,6 +153,4 @@ body {
 /* Предотвращаем масштабирование при долгом нажатии на iOS */
 linker {
   touch-action: manipulation;
-=======
->>>>>>> c33e3d2bdbe9b59b96446534cf7a3a1488b020ec
 }/*# sourceMappingURL=index.css.map */

@@ -35,11 +35,7 @@ body {
         gap: 20px;
 
         @media (max-width: 1300px) {
-<<<<<<< HEAD
             grid-template-columns: 1fr 1fr;
-=======
-            grid-template-columns: 1fr 1fr 1fr;
->>>>>>> c33e3d2bdbe9b59b96446534cf7a3a1488b020ec
         }
 
         @media (min-width: 1300px) {
@@ -49,18 +45,10 @@ body {
 
         linker {
             @media (max-width: 1300px) {
-<<<<<<< HEAD
-=======
-                min-height: 10vh;
->>>>>>> c33e3d2bdbe9b59b96446534cf7a3a1488b020ec
                 aspect-ratio: 1 / 1;
             }
 
             @media (min-width: 1300px) {
-<<<<<<< HEAD
-=======
-                max-height: 25vh;
->>>>>>> c33e3d2bdbe9b59b96446534cf7a3a1488b020ec
                 aspect-ratio: 1 / 1;
             }
 
@@ -115,7 +103,6 @@ body {
             padding: 10px;
         }
     }
-<<<<<<< HEAD
 }
 
 /* Стили для контекстного меню */
@@ -174,6 +161,4 @@ body {
 /* Предотвращаем масштабирование при долгом нажатии на iOS */
 linker {
     touch-action: manipulation;
-=======
->>>>>>> c33e3d2bdbe9b59b96446534cf7a3a1488b020ec
 }
