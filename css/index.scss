@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+    position: relative;
+}
+
+.links {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    gap: 50px;
+
+    @media (max-width: 1300px) {
+        flex-direction: column;
+    }
+
+    @media (min-width: 1300px) {
+        flex-direction: row;
+    }
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+    .links--body {
+        min-height: 30vh;
+        width: 100%;
+        display: grid;
+        gap: 20px;
+
+        @media (max-width: 1300px) {
+<<<<<<< HEAD
+            grid-template-columns: 1fr 1fr;
+=======
+            grid-template-columns: 1fr 1fr 1fr;
+>>>>>>> c33e3d2bdbe9b59b96446534cf7a3a1488b020ec
+        }
+
+        @media (min-width: 1300px) {
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
+
+        linker {
+            @media (max-width: 1300px) {
+<<<<<<< HEAD
+=======
+                min-height: 10vh;
+>>>>>>> c33e3d2bdbe9b59b96446534cf7a3a1488b020ec
+                aspect-ratio: 1 / 1;
+            }
+
+            @media (min-width: 1300px) {
+<<<<<<< HEAD
+=======
+                max-height: 25vh;
+>>>>>>> c33e3d2bdbe9b59b96446534cf7a3a1488b020ec
+                aspect-ratio: 1 / 1;
+            }
+
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 15px;
+            background-color: rgba(0, 0, 0, 0.05);
+            border-bottom: 2px solid #000;
+        }
+    }
+
+    .add--window {
+        min-height: 50vh;
+        background-color: #fff;
+        box-sizing: border-box;
+        padding: 50px;
+        border: 1px solid #000;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+        flex-direction: column;
+
+        h1 {
+            font-size: 20px;
+        }
+
+        input {
+            padding: 5px;
+            border-radius: 10px;
+            border: 0;
+            background-color: rgba(0, 0, 0, 0.05);
+            border-left: 3px solid #7554ab;
+        }
+
+        input:focus, input:active, input:hover {
+            outline: none;
+            border: none;
+            box-shadow: none;
+        }
+
+        input:valid {
+            border-color: #7554ab;
+        }
+
+        button {
+            border-radius: 15px;
+            border: 0;
+            padding: 10px;
+        }
+    }
+<<<<<<< HEAD
+}
+
+/* Стили для контекстного меню */
+.custom-context-menu {
+    position: fixed;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: none;
+    z-index: 10000;
+    min-width: 120px;
+    overflow: hidden;
+    pointer-events: auto;
+}
+
+.menu-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.menu-item:hover {
+    background: #7554ab;
+    color: white;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+/* Улучшения для мобильных */
+@media (max-width: 768px) {
+    .custom-context-menu {
+        min-width: 140px; /* Чуть шире для пальцев */
+        font-size: 16px; /* Крупнее текст */
+    }
+    
+    .menu-item {
+        padding: 12px 15px; /* Больше площадь для тапа */
+    }
+    
+    /* Предотвращаем выделение текста при долгом нажатии */
+    linker {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-touch-callout: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+}
+
+/* Предотвращаем масштабирование при долгом нажатии на iOS */
+linker {
+    touch-action: manipulation;
+=======
+>>>>>>> c33e3d2bdbe9b59b96446534cf7a3a1488b020ec
+}
